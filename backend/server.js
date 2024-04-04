@@ -25,7 +25,7 @@ app.post('/api/addtodo',async(req,res)=>{
     }
     await todoModel.create(obj)
 
-    res.json({
+    res.json({   
         message:"successfully create",
         status:true,
         data:obj
