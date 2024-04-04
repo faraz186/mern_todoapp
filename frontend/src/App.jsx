@@ -13,7 +13,7 @@ const App = ()=> {
       console.log("res",res.data.data);
       setGetData(res.data.data)
       }).catch((err)=>{
-        console.log(err)
+        console.log(err)  
       })
     } catch (error) {
       console.log("error",error)
