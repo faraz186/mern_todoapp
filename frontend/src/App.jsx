@@ -36,7 +36,7 @@ const App = ()=> {
   const deleteTodo = (id)=>{
     try {
       axios.delete(`http://localhost:8080/api/deletetodo/${id}`).then((res)=>{
-        console.log(res)
+        console.log(res)   
       setrefresh(!refresh) 
 
       })
