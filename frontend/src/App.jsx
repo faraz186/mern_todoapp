@@ -4,7 +4,7 @@ import { useEffect, useState } from "react"
 const App = ()=> {
 
   const [inputData,setInputData] = useState('');
-  const [getData,setGetData] = useState([]);
+  const [getData,setGetData] = useState([]);  
   const [refresh,setrefresh] = useState(false);
 
   useEffect(()=>{
