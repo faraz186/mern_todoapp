@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cors());
 
-mongoose.connect(URI);
+mongoose.connect(URI);   
 
 mongoose.connection.on('connected',()=>console.log("database connnect successfully..."));  
 mongoose.connection.on('error',(err)=>console.log(err))
