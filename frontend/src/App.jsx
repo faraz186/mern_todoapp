@@ -27,7 +27,7 @@ const App = ()=> {
       }
       const response = await axios.post('http://localhost:8080/api/addtodo',obj);
       console.log("response",response) 
-      setrefresh(!refresh) 
+      setrefresh(!refresh)   
     } catch (error) {
       console.log("error",error)
     }
