@@ -22,7 +22,7 @@ const App = ()=> {
 
   const createTodo = async()=>{
     try {
-      let obj = {
+      let obj = {  
         todo:inputData,
       }
       const response = await axios.post('http://localhost:8080/api/addtodo',obj);
