@@ -30,7 +30,7 @@ app.post('/api/addtodo',async(req,res)=>{
         status:true,
         data:obj
     })
-    } catch (error) {
+    } catch (error) {  
         res.json({
             message:`internal error occur ${error}`,
             status:false,
